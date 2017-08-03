@@ -54,7 +54,7 @@ public class QuizGame {
 			JOptionPane.showMessageDialog(null, "You are correct! \n\n Your score is " + score + "\nThanks for playing!");			
 		score = score + 1;
 		} else {
-			JOptionPane.showMessageDialog(null, "You are wrong. \nNext Question...");
+			JOptionPane.showMessageDialog(null, "You are wrong. \n\n Your score is " + score + "\nThanks for playing!...");
 		}
 
 		
